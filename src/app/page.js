@@ -1,10 +1,12 @@
-import Image from 'next/image'
-import Banner from '@/components/Banner'
+import Image from 'next/image';
+import Banner from '@/components/Banner';
+
 export default function Home() {
   return (
     <>
-    <Banner/>
+      <div className="p-0">
+        <Banner />
+      </div>
     </>
-   
-  )
+  );
 }
