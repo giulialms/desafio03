@@ -26,9 +26,7 @@ function Index() {
             </div>
             <div className="hidden sm:block sm:ml-6">
               <div className="flex space-x-4 justify-center items-center">
-                <StyledLink href="/sobre">Sobre</StyledLink>
                 <StyledLink href="/loja">Loja</StyledLink>
-                <StyledLink href="/contato">Contato</StyledLink>
               </div>
             </div>
           </div>
@@ -46,9 +44,7 @@ function Index() {
         {mobileNavOpen && (
           <div className="sm:hidden">
             <div className="flex flex-col space-y-2">
-              <StyledLinkMobile href="/sobre">Sobre</StyledLinkMobile>
               <StyledLinkMobile href="/loja">Loja</StyledLinkMobile>
-              <StyledLinkMobile href="/contato">Contato</StyledLinkMobile>
             </div>
           </div>
         )}
