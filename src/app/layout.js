@@ -16,10 +16,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Navbar />
-        <main className="mx-auto flex min-h-screen flex-col items-center justify-between">
+        <main className="mx-auto flex min-h-screen flex-col justify-between">
           {children}
-        <Footer/>
+          
         </main>
+        <Footer/>
       </body>
     </html>
   )

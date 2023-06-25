@@ -12,7 +12,7 @@ const Banner = () => {
             <div className="mt-6">
               <a
                 href="loja"
-                className="inline-block bg-indigo-500 hover:bg-indigo-700 text-branco font-bold py-3 px-6 rounded-lg shadow-lg"
+                className="inline-block bg-background hover:bg-terciaria text-branco font-bold py-3 px-6 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-95"
               >
                 Visite nossa loja
               </a>
