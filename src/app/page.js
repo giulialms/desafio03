@@ -1,12 +1,19 @@
-import Image from 'next/image';
-import Banner from '@/components/Banner';
-
+import Image from 'next/image'
+import Banner from '@/components/Banner'
 export default function Home() {
   return (
     <>
-      <div className="p-0">
-        <Banner />
-      </div>
+      <Banner/>
     </>
-  );
+   
+  )
+}
+
+export function Loja() {
+  return (
+    <>
+      <Produtos/>
+    </>
+   
+  )
 }
