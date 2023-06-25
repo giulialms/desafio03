@@ -2,7 +2,7 @@
 import Produtos from '@/components/Produtos'
 import React, { useState } from 'react'
 
-const page = () => {
+const Page = () => {
 
   const [data, setData] = useState()
 
